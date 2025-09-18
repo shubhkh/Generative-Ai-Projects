@@ -11,25 +11,16 @@ Upload resumes in PDF, DOCX, or TXT formats
 
 Extracts key fields like:
 
-Name
-
-Email
-
-Phone
-
-LinkedIn
-
-Skills
-
-Education
-
-Experience
-
-Projects
-
-Certifications
-
-Languages
+      Name
+      Email
+      Phone
+      LinkedIn
+      Skills
+      Education
+      Experience
+      Projects
+      Certifications
+      Languages
 
 Displays results in a clean JSON format
 
