@@ -45,30 +45,30 @@ PyPDFLoader, Docx2txtLoader, TextLoader
 Clone the repository:
 
 git clone https://github.com/your-username/resume-parser-app.git
+
 cd resume-parser-app
 
 
 Create & activate a virtual environment (optional but recommended):
 
-python -m venv venv
-venv\Scripts\activate  # On Windows
-source venv/bin/activate  # On Mac/Linux
+            python -m venv venv
+            venv\Scripts\activate  # On Windows
+            source venv/bin/activate  # On Mac/Linux
 
 
 Install dependencies:
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 
 Add your Google API Key to a .env file:
 
-GOOGLE_API_KEY=your_api_key_here
+      GOOGLE_API_KEY=your_api_key_here
 
 ▶️ Usage
-
 Run the Streamlit app:
 
-streamlit run resume_parser_app.py
+      streamlit run resume_parser_app.py
 
 
 Then open http://localhost:8501
@@ -81,19 +81,19 @@ Then open http://localhost:8501
 Example:
 
 
-📊 Example Output
-{
-  "Name": "John Doe",
-  "Email": "john.doe@example.com",
-  "Phone": "+1-234-567-890",
-  "LinkedIn": "https://linkedin.com/in/johndoe",
-  "Skills": ["Python", "Machine Learning", "SQL"],
-  "Education": ["MCA - XYZ University"],
-  "Experience": ["Data Scientist at ABC Corp (2022 - Present)"],
-  "Projects": ["Resume Parser App", "Movie Recommendation System"],
-  "Certifications": ["Google Data Analytics", "AWS Cloud Practitioner"],
-  "Languages": ["English", "Hindi"]
-}
+      📊 Example Output
+      {
+        "Name": "John Doe",
+        "Email": "john.doe@example.com",
+        "Phone": "+1-234-567-890",
+        "LinkedIn": "https://linkedin.com/in/johndoe",
+        "Skills": ["Python", "Machine Learning", "SQL"],
+        "Education": ["MCA - XYZ University"],
+        "Experience": ["Data Scientist at ABC Corp (2022 - Present)"],
+        "Projects": ["Resume Parser App", "Movie Recommendation System"],
+        "Certifications": ["Google Data Analytics", "AWS Cloud Practitioner"],
+        "Languages": ["English", "Hindi"]
+      }
 
 💡 Future Improvements
 
